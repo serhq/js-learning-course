@@ -1,4 +1,4 @@
-# My Learning Path [Currently] 🚀 
+# My Learning Path  🔗
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
@@ -32,37 +32,16 @@ Here's my top of resources I use for learning JavaScript:
 
 I still recommend you using these resources to ensure you have learnt JavaScript and the main concepts of it (or any programming language). Don't rely only on ChatGPT or other AI tools.
 
-## 📊 Learning Progress
+## 📊 JavaScript Topics
 
-# JavaScript Course Progress
+>No clutter, no table, just pure status at a glance.
 
-| Topic                         | Status         | Notes (Short)                               | Date Completed |
-| ----------------------------- | -------------- | ------------------------------------------- | -------------- |
-| Variables (let, const, var)   | ✅ Completed    | Basics of storing data                      | 2025-05-24     |
-| Data Types                    | ✅ Completed    | Numbers, strings, booleans, objects, arrays | 2025-05-24     |
-| Operators                     | ⏳ Planned      | Arithmetic, comparison, logical             |                |
-| Control Structures            | ⏳ Planned      | if, else, switch, ternary                   |                |
-| Loops                         | ⏳ Planned      | for, while, do...while                      |                |
-| Functions                     | ⏳ Planned      | Declaration, expressions, arrow functions   |                |
-| Objects                       | ⏳ Planned      | Key-value pairs, methods                    |                |
-| Arrays                        | ⏳ Planned      | Creating, accessing, common methods         |                |
-| Scope & Closures              | ⏳ Planned      | Variable visibility, closure examples       |                |
-| Hoisting                      | ⏳ Planned      | How declarations are moved internally       |                |
-| Prototypes & Inheritance      | ⏳ Planned      | Object prototype chain                      |                |
-| Event Loop & Async            | ⏳ Planned      | Callbacks, promises, async/await            |                |
-| DOM Manipulation              | ⏳ Planned      | Access and modify HTML elements             |                |
-| Events                        | ⏳ Planned      | Event listeners and event handling          |                |
-| ES6+ Features                 | ⏳ Planned      | Let/const, template literals, destructuring |                |
-| Error Handling                | ⏳ Planned      | try/catch, throw                            |                |
-| Modules                       | ⏳ Planned      | Import/export syntax                        |                |
-| Functional Programming        | ⏳ Planned      | map, filter, reduce                         |                |
-| Testing                       | ⏳ Planned      | Jest, Mocha basics                          |                |
-| Build Tools & Bundlers        | ⏳ Planned      | Webpack, Babel                              |                |
-| TypeScript Basics             | ⏳ Planned      | Static typing                               |                |
-| Frameworks (React, Vue, etc.) | ⏳ Planned      | Component-based UI                          |                |
-| Node.js                       | ⏳ Planned      | Backend JavaScript                          |                |
-| Databases with JS             | ⏳ Planned      | MongoDB, Firebase                           |                |
-| WebSockets & Real-time Apps   | ⏳ Planned      | Real-time communication                     |                |
+![Variables](https://img.shields.io/badge/Variables-Completed-brightgreen)
+![Data Types](https://img.shields.io/badge/Data%20Types-Completed-brightgreen) 
+![Operators](https://img.shields.io/badge/Operators-Planned-lightgrey) 
+![Control Structures](https://img.shields.io/badge/Control%20Structures-Planned-lightgrey) 
+![Loops](https://img.shields.io/badge/Loops-Planned-lightgrey) 
+![Functions](https://img.shields.io/badge/Functions-Planned-lightgrey)
 
 
 
@@ -74,8 +53,9 @@ However, you are welcome to **clone** and **explore** the code freely for your o
   
 If you want to reach out or ask questions, feel free to contact me:
 
-Author: Serhii  
-[GitHub](https://github.com/wxzxmqx) | [Email](mailto:your.email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-wxzxmqx-blue?style=flat-square&logo=github)](https://github.com/wxzxmqx) [![Email](https://img.shields.io/badge/Email-sm.yatsunenko@gmail.com-red?style=flat-square&logo=gmail)](mailto:sm.yatsunenko@gmail.com)
+
+
 
 ---
 
