@@ -9,13 +9,13 @@ Mark and John are trying to compare their BMI (Body Mass Index), which is calcul
 let massMark = 78;
 let heightMark = 1.69;
 
-let massJohn = 92;
-let heightJohn = 1.95;
+let massJohn = 95;
+let heightJohn = 1.98;
 
-let BMIMark = massMark / (heightMark * heightMark);
-let BMIJohn = massJohn / (heightJohn * heightJohn);
+const BMIMark = (massMark / (heightMark * heightMark));
+const BMIJohn = (massJohn / (heightJohn * heightJohn));
 
-const markHigherBMI = BMIMark > BMIJohn;
+let markHigherBMI = BMIMark > BMIJohn;
+console.log('Does Mark have a higher BMI than John?: ' + markHigherBMI);
 
-console.log(BMIMark, BMIJohn);
-console.log(markHigherBMI);
+console.log("Mark's BMI: " + BMIMark + ",", "John's BMI: " + BMIJohn);
