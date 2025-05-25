@@ -38,9 +38,9 @@ I still recommend you using these resources to ensure you have learnt JavaScript
 
 ![Variables](https://img.shields.io/badge/Variables-Completed-brightgreen)
 ![Data Types](https://img.shields.io/badge/Data%20Types-Completed-brightgreen) 
-![Operators](https://img.shields.io/badge/Operators-Planned-lightgrey) 
-![Control Structures](https://img.shields.io/badge/Control%20Structures-Planned-lightgrey) 
-![Loops](https://img.shields.io/badge/Loops-Planned-lightgrey) 
+![If / Else Statements](https://img.shields.io/badge/Conditionals-Completed-brightgreen) 
+![Control Structures](https://img.shields.io/badge/Control%20Structures-Completed-brightgreen)
+![Operators](https://img.shields.io/badge/Operators-Planned-lightgrey) ![Loops](https://img.shields.io/badge/Loops-Planned-lightgrey) 
 ![Functions](https://img.shields.io/badge/Functions-Planned-lightgrey)
 
 
