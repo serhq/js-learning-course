@@ -41,6 +41,8 @@ I still recommend you using these resources to ensure you have learnt JavaScript
 ![Operators](https://img.shields.io/badge/Operators-Completed-brightgreen) 
 ![If / Else Statements](https://img.shields.io/badge/Conditionals-Completed-brightgreen) 
 ![Control Structures](https://img.shields.io/badge/Control%20Structures-Completed-brightgreen)
+![Boolean Logic](https://img.shields.io/badge/Boolean%20Logic-Completed-brightgreen)
+![Switch Statements](https://img.shields.io/badge/Switch%20Statements-Completed-brightgreen)
 ![Loops](https://img.shields.io/badge/Loops-Planned-lightgrey) 
 ![Functions](https://img.shields.io/badge/Functions-Planned-lightgrey)
 
