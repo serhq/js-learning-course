@@ -1,6 +1,6 @@
 // Boolean logic: the and, or & not operators
 
-// AND operator              AND |true  | false |
+// AND operator (&&)         AND | true | false |
 //                         ------|------|-------|
 // true when ALL are true  true  |true  | false |
 //                         ------|------|-------|
