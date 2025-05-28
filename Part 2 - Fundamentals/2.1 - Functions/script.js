@@ -22,7 +22,7 @@ logger();
 
 function fruitProcessor(apples, oranges) {
     console.log(apples, oranges);
-    const juice = `Juice with ${apples} apples and ${oranges} oranges 🧃`; // tje process of producing
+    const juice = `Juice with ${apples} apples and ${oranges} oranges 🧃`; // the process of producing
     return juice; // returning juice we produced
 }
 
