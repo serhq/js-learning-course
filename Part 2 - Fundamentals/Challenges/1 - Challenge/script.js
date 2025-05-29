@@ -1,20 +1,24 @@
-/* Write your code below. Good luck! 🙂 */
+// Write your code below
 
 'use strict';
 
-const calcAverage = (score1,score2,score3) => (score1 + score2 + score3) / 3;
+const calcAverage = (a,b,c) => (a + b + c) / 3;
 
-const scoreDolphins = calcAverage(44,23,71);
-const scoreKoalas = calcAverage(65,54,49);
+const scoreDolphins = (calcAverage(85, 54, 41));
+const scoreKoalas = (calcAverage(23, 34, 27));
 
-function checkWinner(avgDolphins, avgKoalas) {
-    if (avgDolphins >= 2 * avgKoalas) {
-        console.log(`Dolphins win (${avgDolphins} vs. ${avgKoalas})`);
-    } else if (avgKoalas >= 2 * avgDolphins) {
-        console.log(`Koalas win (${avgKoalas} vs. ${avgDolphins})`);
+const checkWinner = function (avgDolphins, avgKoalas) {
+    console.log(`${scoreDolphins} and ${scoreKoalas}.`);
+    
+    if (scoreDolphins >= 2 * scoreKoalas) {
+        console.log(`Dolphins win (${scoreDolphins} vs. ${scoreKoalas})`);
+    } else if (scoreKoalas >= 2 * scoreDolphins) {
+        console.log(`Koalas win (${scoreKoalas} vs. ${scoreDolphins})`);
     } else {
-        console.log('No team wins...');
+        console.log(`No team wins...`);
     }
 }
 
-checkWinner(scoreDolphins, scoreKoalas);
+checkWinner();
+
+// i wrote this code 05.29.2025 (29 May, 2025) just to revise all information about functions.
