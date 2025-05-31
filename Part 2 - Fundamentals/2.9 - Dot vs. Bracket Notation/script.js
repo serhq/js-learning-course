@@ -40,4 +40,4 @@ console.log(userInfo);
 
 // "Olivia has 3 hobbies, and her best hobby is art"
 
-console.log(`${userInfo.userName} has ${userInfo['hobbies'].length} hobbies, and her best hobby is ${userInfo.hobbies[1]}`);
+console.log(`${userInfo.userName} has ${userInfo['hobbies'].length} hobbies, and her best hobby is ${userInfo.hobbies[1]}`);//

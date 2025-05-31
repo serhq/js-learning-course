@@ -38,3 +38,4 @@ console.log(products.includes(14)); // true
 products.includes('butter') ? console.log(`yes`) : console.log(`naaah`); // 'yes'
 
 products.includes('cucumber') ? console.log(`yes`) : console.log(`naaah`); // 'naaah'
+//

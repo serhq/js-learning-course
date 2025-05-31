@@ -12,7 +12,7 @@ const userData = [
 // object has 5 properties
 const userInfo = {
     userName: 'Olivia', // property of userName is the value 'Olivia'
-    userSurname: 'Watson',
+    userSurname: 'Watson',//
     age: 2025 - 1991,
     occupation: 'manager',
     hobbies: ['sports', 'art', 'piano']

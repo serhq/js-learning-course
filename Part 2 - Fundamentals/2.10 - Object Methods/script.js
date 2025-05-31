@@ -36,4 +36,4 @@ console.log(user.age);
 // Challenge:
 // "Jonas is a 46-year old teacher, and he has a certificate."
 
-console.log(user.getSummary());
+console.log(user.getSummary()); // 
