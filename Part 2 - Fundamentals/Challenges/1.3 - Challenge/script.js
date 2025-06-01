@@ -30,3 +30,4 @@ const result = john.bmi > mark.bmi
   : `${mark.fullName}'s BMI (${mark.bmi}) is higher than ${john.fullName}'s (${john.bmi})!`;
 
 console.log(result);
+//
