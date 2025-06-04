@@ -67,16 +67,7 @@ const timeTracking = {
     },
 
     isFullTime: function () {
-        let fullTime = false;
-        let total = this.getTotalHours();
-
-        if (total >= 35) {
-            fullTime = true;
-        } else {
-            fullTime = false;
-        }
-
-        return fullTime;
+        return this.getTotalHours() >= 35;
     }
 
 }
