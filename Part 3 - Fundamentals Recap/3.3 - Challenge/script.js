@@ -37,7 +37,7 @@ const printForecast = function(arr) {
         forecast += `${arr[i]}°C in ${i+1} days ... `;
     }
 
-    console.log(forecast);
+    console.log('...' + forecast);
 }
 
 printForecast(data1);
