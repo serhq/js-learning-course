@@ -32,22 +32,6 @@ Here's my top of resources I use for learning JavaScript:
 
 I still recommend you using these resources to ensure you have learnt JavaScript and the main concepts of it (or any programming language). Don't rely only on ChatGPT or other AI tools.
 
-## 📊 JavaScript Topics
-
->No clutter, no table, just pure status at a glance.
-
-![Variables](https://img.shields.io/badge/Variables-Completed-brightgreen)
-![Data Types](https://img.shields.io/badge/Data%20Types-Completed-brightgreen) 
-![Operators](https://img.shields.io/badge/Operators-Completed-brightgreen) 
-![If / Else Statements](https://img.shields.io/badge/Conditionals-Completed-brightgreen) 
-![Control Structures](https://img.shields.io/badge/Control%20Structures-Completed-brightgreen)
-![Boolean Logic](https://img.shields.io/badge/Boolean%20Logic-Completed-brightgreen)
-![Switch Statements](https://img.shields.io/badge/Switch%20Statements-Completed-brightgreen)
-![Loops](https://img.shields.io/badge/Loops-Planned-lightgrey) 
-![Functions](https://img.shields.io/badge/Functions-Planned-lightgrey)
-
-
-
 ## 🤝 Contact & Usage
 
 This repository is a personal learning project and not open for contributions.
