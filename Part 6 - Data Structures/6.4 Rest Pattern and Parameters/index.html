@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/svg+xml" href="/icon/logo.svg">
+
+    <title>JavaScript Learning Course: 101</title>
+</head>
+<body style="
+background: #7e878a;
+font-family: 'Raleway';
+transition: background-color 1s;"
+>
+
+<div style="
+display: flex;
+justify-content: center; 
+margin: 3rem;
+">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-DW_HRN0h9p0HU7tkiKE4PiuryqmVH6X9w&s" alt="JavaScript" style="
+    width: 150px;
+    border-radius: 16px;
+    "/>
+</div>
+
+    <h1 style="
+        text-align: center; 
+        color:white;
+        font-family: 'Raleway', sans-serif; font-size: 2.5rem;
+        margin-top: 3rem;
+        margin-bottom: 0;">
+        Data Structures in JavaScript
+    </h1>
+
+        <p style="
+        text-align: center;
+        color: white;
+        font-family: 'Raleway';
+        font-size: 1.5rem;
+        margin: 1rem;">
+        Open console to see results
+    </p>
+    
+    <script src="script.js"></script>
+    <script>
+        const getRandomColor = () =>{
+            let letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+
+        setInterval(function() {
+            document.body.style.backgroundColor = getRandomColor();
+
+        }, 5000); // every 5 seconds
+
+        document.body.style.backgroundColor = getRandomColor();
+
+    </script>
+
+
+</body>
+</html>
