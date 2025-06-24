@@ -1,5 +1,3 @@
-'use strict';
-
 const books = [
   {
     title: 'Algorithms',
@@ -25,7 +23,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'Structure and Interpretation of Computer Programs',
     author: ['Harold Abelson', 'Gerald Jay Sussman', 'Julie Sussman (Contributor)'],
@@ -50,7 +47,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'Computer Systems: A Programmer\'s Perspective',
     author: ['Randal E. Bryant', 'David Richard O\'Hallaron'],
@@ -75,7 +71,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'Operating System Concepts',
     author: ['Abraham Silberschatz', 'Peter B. Galvin', 'Greg Gagne'],
@@ -99,7 +94,6 @@ const books = [
       }
     }
   },
-
   {
     title: 'Engineering Mathematics',
     author: ['K.A. Stroud', 'Dexter J. Booth'],
@@ -124,7 +118,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'The Personal MBA: Master the Art of Business',
     author: 'Josh Kaufman',
@@ -145,7 +138,6 @@ const books = [
       }
     }
   },
-
   {
     title: 'Crafting Interpreters',
     author: 'Robert Nystrom',
@@ -166,7 +158,6 @@ const books = [
       }
     }
   },
-
   {
     title: 'Deep Work: Rules for Focused Success in a Distracted World',
     author: 'Cal Newport',
@@ -191,22 +182,48 @@ const books = [
   }
 ];
 
-// Destructure the keywords property (array) of the first book from the books array into variables called mainKeyword and rest. 
+// Task 1
+const {title, author, ISBN} = books[0];
+console.log(books[0].title, books[0].author, books[0].ISBN);
 
-// The first keyword should be assigned to mainKeyword, and the rest of the keywords should be assigned to the rest variable (it should be an array).
+// Task 2
+const {
+  keywords: tags,
+} = books[0];
+console.log(`T2:`, tags.join(', '));
 
-const [mainKeyword, ...rest] = books[0].keywords;
+// Task 3
+const {
+  language,
+  programmingLanguage = 'unknown',
+} = books[6];
+console.log(language, programmingLanguage);
 
-// Destructuring the second book from the array into a variable:
-// 1) Variable - bookPublisher, assign with the value of publisher.
-// 2) Assign the rest of the properties to the restOfTheBook
+// Task 4
+let bookTitle = 'unknown';
+let bookAuthor = 'unknown';
 
-const {publisher: bookPublisher, ...restOfTheBook} = books[1];
+({
+  title: bookTitle, 
+  author: bookAuthor,
+} = books[0]);
 
-// Write a function called printBookAuthorsCount that has two parameters called title and authors. The authors parameter should accept any number of arguments. This function should log to the console a string formatted like that: "The book "${title}" has ${authors.length} authors".
+console.log(`T4:`, bookAuthor, bookTitle);
 
-const printBookAuthorsCount = (title, ...authors) => {
-    console.log(`The book ${title} has ${authors.length} authors.`);
+const {
+  thirdParty: {
+    goodreads: {
+      rating: bookRating
+    }
+  }
+} = books[0]; 
+
+console.log(`T5:`, bookRating);
+
+// Task 5
+const printBookInfo = ({title, author, year='year unknown'}) => {
+  console.log(`${title} by ${author}, ${year}`);
 };
 
-printBookAuthorsCount('Algorithms', 'Robert Sedgewick', 'Kevin Wayne');
+printBookInfo({ title: 'Algorithms', author: 'Robert Sedgewick', year: '2011' });
+printBookInfo({ title: 'Algorithms', author: 'Robert Sedgewick' });

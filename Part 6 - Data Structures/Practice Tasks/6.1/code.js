@@ -1,5 +1,3 @@
-'use strict';
-
 const books = [
   {
     title: 'Algorithms',
@@ -25,7 +23,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'Structure and Interpretation of Computer Programs',
     author: ['Harold Abelson', 'Gerald Jay Sussman', 'Julie Sussman (Contributor)'],
@@ -50,7 +47,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'Computer Systems: A Programmer\'s Perspective',
     author: ['Randal E. Bryant', 'David Richard O\'Hallaron'],
@@ -75,7 +71,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'Operating System Concepts',
     author: ['Abraham Silberschatz', 'Peter B. Galvin', 'Greg Gagne'],
@@ -99,7 +94,6 @@ const books = [
       }
     }
   },
-
   {
     title: 'Engineering Mathematics',
     author: ['K.A. Stroud', 'Dexter J. Booth'],
@@ -124,7 +118,6 @@ const books = [
     },
     highlighted: true
   },
-
   {
     title: 'The Personal MBA: Master the Art of Business',
     author: 'Josh Kaufman',
@@ -145,7 +138,6 @@ const books = [
       }
     }
   },
-
   {
     title: 'Crafting Interpreters',
     author: 'Robert Nystrom',
@@ -166,7 +158,6 @@ const books = [
       }
     }
   },
-
   {
     title: 'Deep Work: Rules for Focused Success in a Distracted World',
     author: 'Cal Newport',
@@ -191,58 +182,31 @@ const books = [
   }
 ];
 
-// Each book object has the author property, which stores an array of strings (author names) if there are multiple authors, or a single string (author name) if there is just one author.
+// Task 1
+const [firstBook, secondBook] = books
 
-// Declare an array called bookAuthors, and fill it with authors of the first two books from the books array. The bookAuthors array should have just one level (no nested arrays).
+// Task 2
+const [,,thirdBook] = books;
 
-const bookAuthors = [...books[0].author, ...books[1].author];
-console.log(bookAuthors); // yes, works
+// Task 3
+const ratings = [
+  [
+    'rating', 4.19
+  ], 
 
-// Write a function called spellWord that accepts a single string as an argument. This function should log to the console each letter of the argument separated by a space.
+  [
+    'ratingsCount', 144584
+  ]
+];
 
-const spellWord = (word) => {
-    console.log(...word);
-}
+const [[,rating], [,ratingsCount]] = ratings;
 
-spellWord('JavaScript');
+// Task 4
+const ratingStars = [63405, 1808];
+const [fiveStarRatings, oneStarRatings, threeStarRatings=0] = ratingStars;
 
-// ---------------
-// Arrays to copy, merge, and modify
-// ---------------
-const numbers = [2, 3, 4];
-const fruits = ['apple', 'banana'];
-const veggies = ['carrot', 'potato'];
-const oldArray = [10, 20, 30];
-
-// ---------------
-// Object to copy and update
-// ---------------
-const person = { name: 'Anna', age: 25 };
-
-// ---------------
-// TASK 1: Copy an array using the spread operator. Use oldArray.
-// ---------------
-const arr = [...oldArray];
-// ---------------
-// TASK 2: Add an element to the start of an array using the spread operator. Use numbers array and add 1 at the start.
-// ---------------
-const newNumbers = [1, ...numbers];
-// ---------------
-// TASK 3: Add an element to the end of an array using the spread operator. Use numbers array and add 5 at the end.
-// ---------------
-const numArr = [...numbers, 5];
-// ---------------
-// TASK 4: Combine two arrays using the spread operator. Use fruits and veggies.
-// ---------------
-const food = [...fruits, ...veggies];
-// ---------------
-// TASK 5: Copy an object using the spread operator and update a property. Use person object and set age to 26.
-// ---------------
-const newPerson = {...person};
-newPerson.age = 26;
-
-console.log('T1:', arr);
-console.log('T2:', newNumbers);
-console.log('T3:', numArr);
-console.log('T4:', food);
-console.log('T5:', newPerson);
+// Results
+console.log(`T1:`, firstBook, secondBook); // books[0, 1]
+console.log(`T2:`, thirdBook); // books[2]
+console.log(`T3:`, rating, ratingsCount); // 4.19 144584
+console.log(`T4:`, fiveStarRatings, oneStarRatings, threeStarRatings); // 63405 1808 0
